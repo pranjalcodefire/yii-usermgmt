@@ -1,5 +1,5 @@
 {
-    "name": "codefire/yii-usermgmt",
+    "name": "codefire/cfusermgmt",
     "description": "The users module for Yii framework",
     "type": "yii2-extension",
     "keywords": ["yii2", "yii 2", "users", "user", "module", "modules", "account", "management", "profile", "profiles"],
@@ -12,6 +12,5 @@
             "name": "Pranjal",
             "email": "pranjal@codefire.in"
         }
-    ],
-    "minimum-stability": "dev"
+    ]
 }
