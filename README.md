@@ -40,7 +40,7 @@ Like:
 
 NOTES:
 -----------------------------
-* make sure you have import database from yii_git_copied.sql file
+* make sure you have import database db.sql file
 * Admin credentials (codefire/111111)
 Useful Url example:
 * FrontEnd Url (http://localhost/BaseFolderName/advanced/frontend/web/usermgmt/user/login)

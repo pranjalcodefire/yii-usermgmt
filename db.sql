@@ -210,13 +210,13 @@ CREATE TABLE IF NOT EXISTS `settings` (
 
 INSERT INTO `settings` (`id`, `name`, `name_public`, `value`, `type`) VALUES
 (1, 'defaultTimeZone', 'Enter default time zone identifier', 'Asia/Calcutta', 'input'),
-(2, 'siteName', 'Enter Your Site Name', 'Rupaiya Exchange', 'input'),
+(2, 'siteName', 'Enter Your Site Name', 'Codefire', 'input'),
 (3, 'siteRegistration', 'New Registration is allowed or not', '1', 'checkbox'),
 (4, 'allowDeleteAccount', 'Allow users to delete account', '1', 'checkbox'),
 (5, 'sendRegistrationMail', 'Send Registration Mail After User Registered', '1', 'checkbox'),
 (6, 'sendPasswordChangeMail', 'Send Password Change Mail After User changed password', '1', 'checkbox'),
 (7, 'emailVerification', 'Want to verify user''s email address?', '1', 'checkbox'),
-(8, 'emailFromAddress', 'Enter email by which emails will be send.', 'rxexchnage@rupaiyaexchange.com', 'input'),
+(8, 'emailFromAddress', 'Enter email by which emails will be send.', 'admin@admin.com', 'input'),
 (9, 'emailFromName', 'Enter Email From Name', 'Rosh', 'input'),
 (10, 'bannedUsernames', 'Set banned usernames comma separated(no space, no quotes)', 'Administrator, SuperAdmin', 'input'),
 (11, 'allowChangeUsername', 'Do you want to allow users to change their username?', '0', 'checkbox'),
