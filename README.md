@@ -6,10 +6,9 @@ Requirments:
 
 Steps To install the 'cfusermgmt' plugin:
 -----------------------------------------------------------------------------------------
-1. Create folder "codefire/cfusermgmt"
-2. Extract (Give permission, init application)
-3. Simply copy folder codefire in app vendor directory
-4. add in application's frontend/web/index.php 
+1. Create folder "codefire/cfusermgmt" in vendor folder
+2. Extract into cfusermgmt folder (Give permission, init application)
+3. add in application's frontend/web/index.php 
 require(__DIR__ . '/../../vendor/codefire/cfusermgmt/config/main.php'),
 before
 require(__DIR__ . '/../config/main-local.php');   // JUST BEFORE THIS LINE
@@ -18,10 +17,10 @@ require(__DIR__ . '/../config/main-local.php');   // JUST BEFORE THIS LINE
 add after $application = new yii\web\Application($config);
 require(__DIR__ . '/../../vendor/codefire/cfusermgmt/config/constants.php');
 
-5.  - Delete common/model/User.php
+4.  - Delete common/model/User.php
     - Remove user component from application's frontend/config.php
     
-6. create htaccess in frontend/web    
+5. create htaccess in frontend/web    
 	Source code should be:
 		<IfModule mod_rewrite.c>
 			Options -MultiViews
@@ -34,7 +33,7 @@ require(__DIR__ . '/../../vendor/codefire/cfusermgmt/config/constants.php');
 		Order allow,deny
 		allow from all
 
-7. Change SITE_URL to your Current URL on "vendor/codefire/cfusermgmt/config/main.php"
+6. Change SITE_URL to your Current URL on "vendor/codefire/cfusermgmt/config/main.php"
 '@SITE_URL' => "Your Url Goes Here"
 Like: 
 '@SITE_URL' => "http://localhost/plugin_yii"
