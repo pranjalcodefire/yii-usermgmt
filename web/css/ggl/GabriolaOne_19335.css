@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'GabriolaOne_19335';
+    src: url('../../fonts/ggl/GabriolaOne_19335.eot');
+    src: url('../../fonts/ggl/GabriolaOne_19335.eot') format('embedded-opentype'),
+         url('../../fonts/ggl/GabriolaOne_19335.woff2') format('woff2'),
+         url('../../fonts/ggl/GabriolaOne_19335.woff') format('woff'),
+         url('../../fonts/ggl/GabriolaOne_19335.ttf') format('truetype'),
+         url('../../fonts/ggl/GabriolaOne_19335.svg#GabriolaOne_19335') format('svg');
+}

@@ -1,0 +1,67 @@
+@font-face {
+    font-family:mooliItalic;
+    src: url("../fonts/Muli-Italic.ttf");
+}
+@font-face {
+    font-family:mooliLight;
+	src: url("../fonts/Muli-Light.ttf");
+}
+
+@font-face {
+    font-family: mooliReguler;
+	src: url("../fonts/Muli-Regular.ttf");
+}
+.panheding { font-size:30px; font-family: mooliReguler;    }
+.rgistr_top { padding-top:40px; padding-bottom:30px;  background:#f8f8f8;  }
+.r_frm_btn_wrp { width:153px;  margin:0px auto;  }
+.r_frm_btn_wrp .btn { margin-right:20px;  }
+.r_frm_btn_wrp .last { margin-right:0px; }
+.panel-heading { background:#2e9df7!important; }
+
+
+
+@media screen and (max-width:1180px) {
+
+}
+
+@media screen and (max-width:860px) {
+
+}
+
+
+
+@media screen and (max-width:775px) {
+
+
+}
+
+@media screen and (max-width:767px) {
+
+}
+
+
+
+
+@media screen and (max-width:519px) {
+.our_rgi_pnl .panel .panel-body .bs-example .form-horizontal .form-group .control-label { width:100%; float:left;  }
+
+.our_rgi_pnl .panel .panel-body .bs-example .form-horizontal .form-group .col-xs-8 { width:100%; float:left;  }
+.our_rgi_pnl .panel .panel-body .bs-example .form-horizontal .form-group .col-xs-offset-4 { margin-left: 0;}
+}
+
+@media screen and (max-width:470px) {
+
+}
+
+
+
+
+@media screen and (max-width:390px) {
+
+}
+
+@media screen and (max-width:340px) {
+
+
+}
+

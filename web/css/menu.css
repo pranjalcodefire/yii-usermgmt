@@ -1,0 +1,72 @@
+.clearfix:after {
+    display:block;
+    clear:both;
+}
+/*----- Menu Outline -----*/
+.menu-wrap {}
+.menu {
+    width:100%;
+    margin:0px auto;
+	text-decoration:none;
+}
+.menu ul{margin: 0;    padding: 0;}
+.menu li {
+    margin:0px;
+    list-style:none;
+	text-decoration:none;
+}
+.menu a {
+    color: #bdc3c7;
+	text-decoration:none;
+}
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#fff;
+	border-radius:2px;
+}
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+/*----- Top Level -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+}
+.menu > ul > li > a {
+    padding:5px 15px;
+    display:inline-block;
+}
+.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#14293f;
+}
+/*----- Bottom Level -----*/
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+.sub-menu {
+    background: none repeat scroll 0 0 #14293f;
+    border-radius: 0 0 6px 6px;
+    left: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    transition: opacity 0.15s linear 0s;
+    width: 165%;
+    z-index: -1;
+}
+.sub-menu li {
+    display:block;
+}
+.sub-menu li a {
+    padding:5px 10px;
+    display:block;
+}
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#34495e;
+	border-radius:none !important;
+}

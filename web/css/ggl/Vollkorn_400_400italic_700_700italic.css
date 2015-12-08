@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Vollkorn Regular'), local('Vollkorn-Regular'), url('../../fonts/idGKtgpe38okB6bfeHMsLPesZW2xOQ-xsNqO47m55DA.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Vollkorn Bold'), local('Vollkorn-Bold'), url('../../fonts/wMZpbUtcCo9GUabw9JODeo4P5ICox8Kq3LLUNMylGO4.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Vollkorn Italic'), local('Vollkorn-Italic'), url('../../fonts/Oiz0tNwvC-Nd29SBQWfWTPk_vArhqVIZ0nv9q090hN8.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Vollkorn';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Vollkorn Bold Italic'), local('Vollkorn-BoldItalic'), url('../../fonts/KNiAlx6phRqXCwnZZG51JIWiMMZ7xLd792ULpGE4W_Y.woff2') format('woff2');
+}
