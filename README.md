@@ -18,7 +18,7 @@ add after $application = new yii\web\Application($config);
 require(__DIR__ . '/../../vendor/codefire/cfusermgmt/config/constants.php');
 
 4.  - Delete common/model/User.php
-    - Remove user component from application's frontend/config.php
+    - Remove user component from application's frontend/config/main.php
     
 5. create htaccess in frontend/web    
 	Source code should be:
@@ -50,25 +50,3 @@ Useful Url example:
 You can also install Using composer:
 
 	composer require codefire/cfusermgmt
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
